@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+  <body>
+    <script>
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      }
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+    
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="clients.html">Clients</a>
+      <a href="design.html">Design</a>
+      <ul>
+        <a href="#">Divyesh</a>
+        <a href="#">Sufiyan</a>
+        <a href="#">Jay</a>
+        <a href="#">Dharmik</a>
+        <a href="#">Ankit</a>
+      </ul>
+      <a href="contact.html">Contact</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
+    
+    <div class="container signin">
+      <p>New User please Register with your E-mail <a href="registration_form.html">Sign up</a>.</p>
+    </div>
+    <br>
+    <div class="container signin">
+      <p>Already have an account?<a href="sigh_in_form.html">Sign In</a>.</p>
+    </div>
+  </body>
+</html> 
